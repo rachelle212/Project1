@@ -1,0 +1,141 @@
+
+.header {
+    background-color: rgb(64, 66, 68);
+    color: white;
+    text-align: center;
+    height: 75px;
+    width: 100%;
+    border:none;
+}
+
+.breakingNews {
+    width: 100%;
+    background-color: rgb(232, 233, 234);
+    color: black;
+    font-size: small;
+    float: left;
+    padding-bottom: 4%;
+    text-align: left;
+    height: 50px;
+
+}
+.header2 {
+    background-color: rgb(47, 105, 163);
+    color: white;
+    text-align: center;
+    width:33%;
+    height: 50px;
+    float: left;
+
+}
+
+.header img {
+    float: none;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: yellow}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(64, 66, 68);
+}
+
+
+.container {
+    height: auto;
+    overflow: hidden;
+}
+
+.ads {
+    width: 300px;
+    float: right;
+    background: white;
+    padding: 1%;
+}
+.events{
+    color: red;
+    font-size: xx-large;
+}
+
+.panelDisc {
+    font-family: "times";
+    font-size: 15px;
+    text-align: center;
+    color: grey;
+    font-style: oblique;
+  }
+
+
+.articles {
+    float: left;
+    background: white;
+    width: 400px;
+    overflow: auto;
+    padding-left: 19%;
+}​​
+
+.aiLink {
+    font-size: x-large;
+    font-family: "Courier New";
+
+ }
+
+ .aiTitle {
+     color: black;
+     font-size: 37px;
+     font-family: "";
+ }
+
+ .noEvents {
+     font-size: 10pt;
+     color: black;
+ }
+
+.input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 50%;
+}
+
+.alerts {
+    border: thin;
+    border-color: black;
+}
